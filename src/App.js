@@ -44,7 +44,7 @@ setSearchInfo(json.query.searchinfo);
         <a href='https://www.google.com/' target="__blank"> <img className='siteImage' src="/images/Google.jpg" alt='Google'/> </a>
       </div>
 
-          {(searchInfo.totalhits) ? <p> <FontAwesomeIcon icon={faSearch}/> results found: {searchInfo.totalhits}</p> : ' '}
+          {(searchInfo.totalhits) ? <p> <FontAwesomeIcon icon={faSearch}/> see results found: {searchInfo.totalhits}</p> : ' '}
      </header>
       <div className='results'>
       {results.map((result, i) => {
